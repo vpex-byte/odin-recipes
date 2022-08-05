@@ -1,0 +1,23 @@
+/* Global */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edede9;
+}
+
+/* Heading */
+
+h1{
+    text-align: center;
+}
+
+/* Navigation and Links */
+.nav{
+    background:#fefae0;
+
+}
+
+ul
+li{
+    text-align: center;
+    list-style: none;
+}

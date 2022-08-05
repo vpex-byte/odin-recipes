@@ -1,0 +1,51 @@
+/* Global */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edede9;
+    font-size: 18px;
+}
+
+h2{
+    color: #333;
+
+}
+
+/* Heading */
+
+h1{
+    text-align: center;
+}
+
+/* Image */
+
+.pizza-img{
+    width: 400px;
+    height: auto;
+    
+}
+
+/* Description */
+
+
+.description{
+    background-color: #fefae0;
+}
+
+/* Time And Servings */
+
+.time-servings{
+    background-color: #fefae0;
+}
+
+/* Ingredients */
+
+.ingredients{
+    background-color: #fefae0;
+
+}
+
+/* Steps */
+
+.steps{
+    background-color: #fefae0;
+}
