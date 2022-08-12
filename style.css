@@ -31,6 +31,13 @@ h3 {
   flex-direction: column;
 }
 
+img {
+  max-height: 380px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 4px 10px 10px #868e96;
+}
+
 /* Header */
 
 .header {
@@ -78,12 +85,7 @@ h3 {
   font-size: 20px;
 }
 
-img {
-  max-height: 380px;
-  width: 300px;
-  border-radius: 20px;
-  box-shadow: 4px 10px 10px #868e96;
-}
+/* Recipes Block */
 
 .recipes {
   display: flex;
