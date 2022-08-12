@@ -1,25 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes | Main Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Main Title With List of Recipes -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Odin Recipes</h1>
+      </div>
+      <div class="showcase">
+        <div class="showcase-txt">
+          <h2>Simply Delicious Recipes</h2>
+          <p><em>Enjoy Every Meal.</em></p>
+        </div>
+      </div>
 
-    <h1>Odin Recipes</h1>
-    <div class="nav">
-<ul class="nav-links">
-   <li><a href="./recipes/pizza.html">Pizza Recipe</a></li>
-    <li><a href="./recipes/ham-and-cheese-breakfast-tortillas.html">Ham and Cheese Breakfast Tortillas Recipe</a></li>
-    <li><a href="./recipes/japanese-chicken-wings.html">Japanese Chicken Wings Recipe</a></li>
-</ul>
-</div>
-
-    
-    
-</body>
+      <h3>Featured Posts</h3>
+      <div class="posts">
+        <div class="items">
+          <img src="./img/brocoli-bowl.jpg" alt="brocoli-bowl" />
+          <div class="text">
+            Healthy Breakfast Ideas When There's No Time To Eat
+          </div>
+        </div>
+        <div class="items">
+          <img src="./img/diet-pizza.jpg" alt="heathy-homemade-pizza" />
+          <div class="text">
+            Traditional style pizza is a relatively simple food, made with
+            flour, yeast, water, salt, oil, tomato sauce and fresh cheese.
+          </div>
+        </div>
+        <div class="items">
+          <img src="./img/egg-sandwich.jpg" alt="boiled-eggs-sandwich" />
+          <div class="text">
+            An egg salad sandwich is one of the easiest sandwiches in the world
+            to make, especially if you have hard boiled eggs already made. It's
+            also a great way to use up leftover eggs after Easter.
+          </div>
+        </div>
+      </div>
+      <h3>Recipes Collection</h3>
+      <div class="recipes">
+        <div class="items">
+          <a href="./recipes/pizza.html">
+            <img src="./img/pizza.jpg" alt="hummus-pizza"
+          /></a>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            amet.
+          </p>
+        </div>
+        <div class="items">
+          <a href="./recipes/ham-and-cheese-breakfast-tortillas.html"
+            ><img src="./img/tortillas.jpg" alt="tortillas"
+          /></a>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+            ipsam!
+          </p>
+        </div>
+        <div class="items">
+          <a href="./recipes/japanese-chicken-wings.html"
+            ><img src="./img/wings.jpg" alt="japanese-chicken-wings"
+          /></a>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            vel.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
