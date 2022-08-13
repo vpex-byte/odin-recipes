@@ -6,36 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes | Main Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>Odin Recipes</h1>
+        <i class="fa-solid fa-apple-whole fa-2x"></i>
+        <a href="./index.html"><h1>Odin Recipes</h1></a>
       </div>
       <div class="showcase">
         <div class="showcase-txt">
           <h2>Simply Delicious Recipes</h2>
           <p><em>Enjoy Every Meal.</em></p>
+          <form class="search" action="https://www.google.com/search">
+            <input
+              name="text"
+              id="text"
+              type="text"
+              placeholder="Find a Recipe"
+            />
+          </form>
         </div>
       </div>
-
       <h3>Featured Posts</h3>
       <div class="posts">
         <div class="items">
-          <img src="./img/brocoli-bowl.jpg" alt="brocoli-bowl" />
+          <div class="img-hover">
+            <img src="./img/brocoli-bowl.jpg" alt="brocoli-bowl" />
+          </div>
           <div class="text">
             Healthy Breakfast Ideas When There's No Time To Eat
           </div>
         </div>
         <div class="items">
-          <img src="./img/diet-pizza.jpg" alt="heathy-homemade-pizza" />
+          <div class="img-hover">
+            <img src="./img/diet-pizza.jpg" alt="heathy-homemade-pizza" />
+          </div>
           <div class="text">
             Traditional style pizza is a relatively simple food, made with
             flour, yeast, water, salt, oil, tomato sauce and fresh cheese.
           </div>
         </div>
         <div class="items">
-          <img src="./img/egg-sandwich.jpg" alt="boiled-eggs-sandwich" />
+          <div class="img-hover">
+            <img src="./img/egg-sandwich.jpg" alt="boiled-eggs-sandwich" />
+          </div>
           <div class="text">
             An egg salad sandwich is one of the easiest sandwiches in the world
             to make, especially if you have hard boiled eggs already made. It's
@@ -47,8 +65,9 @@
       <div class="recipes">
         <div class="items">
           <a href="./recipes/pizza.html">
-            <img src="./img/pizza.jpg" alt="hummus-pizza"
-          /></a>
+            <div class="img-hover">
+              <img src="./img/pizza.jpg" alt="hummus-pizza" /></div
+          ></a>
           <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
             amet.
@@ -56,8 +75,9 @@
         </div>
         <div class="items">
           <a href="./recipes/ham-and-cheese-breakfast-tortillas.html"
-            ><img src="./img/tortillas.jpg" alt="tortillas"
-          /></a>
+            ><div class="img-hover">
+              <img src="./img/tortillas.jpg" alt="tortillas" /></div
+          ></a>
           <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
             ipsam!
@@ -65,14 +85,20 @@
         </div>
         <div class="items">
           <a href="./recipes/japanese-chicken-wings.html"
-            ><img src="./img/wings.jpg" alt="japanese-chicken-wings"
-          /></a>
+            ><div class="img-hover">
+              <img src="./img/wings.jpg" alt="japanese-chicken-wings" /></div
+          ></a>
           <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
             vel.
           </p>
         </div>
       </div>
+      <footer class="footer">
+        <a href="https://www.theodinproject.com/"
+          >For educational purposes only | The Odin Project 2022 &reg;</a
+        >
+      </footer>
     </div>
   </body>
 </html>
