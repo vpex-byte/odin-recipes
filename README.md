@@ -16,7 +16,7 @@ Main purpose of this project, is quite obvious ,creating just a simple and funct
 <li><a href="https://www.epicurious.com/">Epicurious</a></li>
 <li><a href="https://dribbble.com/shots/17448484-Food-recipe-blog-template/attachments/12580214?mode=media">Dribbble</a></li>
 <li><a href="https://www.allrecipes.com/">Allrecipes</a></li>
-<ol>
+</ol>
 <p>Images</p>
 
 <ul>
