@@ -197,17 +197,18 @@ input[type="text"]:focus {
   filter: brightness(70%);
 }
 
-/* Footer & Hover */
+/* Hover Footer  */
 
 .footer {
   display: flex;
   padding: 16px 25px;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
   background-color: #1d1d1d;
   color: #e5e5e5;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer a:hover {
