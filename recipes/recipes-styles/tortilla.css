@@ -152,7 +152,7 @@ ul {
 .steps {
   display: flex;
   align-items: center;
-  width: 370px;
+  width: 350px;
   justify-content: center;
   align-content: center;
   animation-name: steps;
