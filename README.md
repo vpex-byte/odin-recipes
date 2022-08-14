@@ -17,5 +17,8 @@ Main purpose of this project, is quite obvious ,creating just a simple and funct
 <li><a href="https://dribbble.com/shots/17448484-Food-recipe-blog-template/attachments/12580214?mode=media">Dribbble</a></li>
 <li><a href="https://www.allrecipes.com/">Allrecipes</a></li>
 <ol>
+<p>Images</p>
 
-<p>All images were took from</p><a href="https://unsplash.com/">Unsplash</a></p>
+<ul>
+<li><a href="https://unsplash.com/">Unsplash</a></li>
+</ul>
