@@ -3,7 +3,7 @@
 <h2>Basic Recipe Website </h2>
 <h3>About</h3>
 
- The goal of this project is to learn and understand basic HTML skills.To get idea, how is HTML works on practice.
+ The goal of this project is to learn and understand basic HTML and CSS.To get idea, how is HTML and CSS works on practice.
  Main purpose of this project, is quite obvious ,creating just a simple and functional "Basic Recipe Website'.
 
 <h3>Links</h3>
